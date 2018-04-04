@@ -1,0 +1,77 @@
+<%-- 
+    Document   : header
+    Created on : 10 Nov 2017, 12:33:12 PM
+    Author     : luyanda.mbodla
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<head>
+    <style>
+        header {
+            padding: 1em;
+            color: #4169E1;
+            background-color: lightgrey;
+            clear: left;
+            text-align: center;
+            font-size: xx-large;
+        }
+            sty{
+                color: orange;
+                font-size: x-large;
+            }
+            h2
+            {
+                color: #4169E1;
+                font-size: x-large;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #4169E1;
+            }
+
+            li {
+                float: left;
+                border-right:1px solid #bbb;
+            }
+
+            li:last-child {
+                border-right: none;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                background-color: orange;
+            }
+
+            .active {
+                background-color: #4CAF50;
+            }
+        </style>
+    </head>
+    <div>  
+        <header>
+            South African Public Traditional Universities
+        </header>
+            <div>
+                <ul>
+                    <li><a class="active" href="Home.jsp">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="Login.jsp">Login</a></li>
+                    <li><a href="Signup.jsp">Sign Up</a></li>
+                    <li style="float:right"><a href="#about">About</a></li>
+                </ul>
+            </div>
+        </div>
